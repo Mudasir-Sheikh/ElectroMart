@@ -1,0 +1,9 @@
+{% extends "admin/change_list.html" %}
+
+{% block object-tools %}
+    <div>
+        <a href="sales-report/" class="button">Generate Sales Report</a>
+    </div>
+    <br />
+    {{ block.super }}
+{% endblock %}
